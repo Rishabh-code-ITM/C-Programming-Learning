@@ -1,6 +1,6 @@
-#include <stdio.h>                      // Standard input output library
+#include <stdio.h>                     
 
-int main() {                            // Program yahin se start hota hai (main function)
+int main() {                            
     int num;                            // Number store karne ke liye
     printf("Enter a number: ");         // Number maango
     scanf("%d", &num);                  // Number input lo
@@ -8,6 +8,6 @@ int main() {                            // Program yahin se start hota hai (main
         printf("Even\n");               // Even print karo
     } else {                            // Warna number odd hoga
         printf("Odd\n");                // Odd print karo
-    }                                   // if-else block end
-    return 0;                           // Program successfully khatam
-}                                       // main function end
+    }                                   
+    return 0;                          
+}                                       
