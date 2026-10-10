@@ -1,6 +1,6 @@
-#include <stdio.h>                                      // Standard input output library
+#include <stdio.h>                                      
 
-int main() {                                            // Program yahin se start hota hai (main function)
+int main() {                                            
     int age;                                            // Age store karne ke liye
     printf("Enter your age: ");                         // Age maango
     scanf("%d", &age);                                  // Age input lo
@@ -8,6 +8,6 @@ int main() {                                            // Program yahin se star
         printf("Eligible to vote\n");                   // Vote de sakte ho
     } else {                                            // 18 se kam age
         printf("Not eligible to vote\n");               // Vote nahi de sakte
-    }                                                   // if-else block end
-    return 0;                                           // Program successfully khatam
-}                                                       // main function end
+    }                                                   
+    return 0;                                          
+}                                                      
