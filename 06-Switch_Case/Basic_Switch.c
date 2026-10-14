@@ -1,6 +1,6 @@
-#include <stdio.h>                          // Standard input output library
+#include <stdio.h>                          
 
-int main() {                                // Program yahin se start hota hai (main function)
+int main() {                                //starting point
     int choice;                             // User ka choice
     printf("Enter 1, 2 or 3: ");            // Choice maango
     scanf("%d", &choice);                   // Choice input lo
@@ -16,6 +16,6 @@ int main() {                                // Program yahin se start hota hai (
             break;                          // switch se bahar
         default:                            // Koi case match nahi hua
             printf("Invalid choice\n");     // Galat choice ka message
-    }                                       // switch end
+    }                                      
     return 0;                               // Program successfully khatam
-}                                           // main function end
+}                                           
