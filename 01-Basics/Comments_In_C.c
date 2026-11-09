@@ -4,8 +4,7 @@
    Isme kitni bhi lines likh sakte ho.
    Compiler isko ignore kar deta hai. */
 
-int main() {                            // Program yahin se start hota hai (main function)
-    printf("Comments dikhte nahi\n");   // printf function hai jo ke bracket ke andar jo bhi likhege vah print karega 
-    // printf("Yeh line run nahi hogi");   // Commented code run nahi hota
-    return 0;                           // Program successfully khatam
-}                                       // main function end
+int main() {                           
+    printf("Comments dikhte nahi\n");   
+    return 0;                           
+}                                       \
