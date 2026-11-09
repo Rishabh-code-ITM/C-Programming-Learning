@@ -1,4 +1,4 @@
-// My first starting program in c 
+// My first starting program in c
 #include <stdio.h>                   
 
 int main() {                       
