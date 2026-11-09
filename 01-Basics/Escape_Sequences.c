@@ -1,7 +1,7 @@
 #include <stdio.h>                         
 
 int main() {                                
-    printf("New\nLine\n");                  // \n se nayi line shuru hoti hai
+    printf("New\nLine\n");                  // \n se nayi line aa jati hai 
     printf("Tab\tSpace\n");                 // \t se tab jitna gap aata hai
     printf("Double quote: \"Hi\"\n");       // \" se string ke andar double quote print hota hai
     printf("Backslash: \\\n");              // \\ se ek backslash print hota hai
