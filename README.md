@@ -320,14 +320,14 @@ C-Programming
 | ---------------------- | ----------- |
 | Basics                 | 🔄 Learning |
 | Variables & Data Types | 🔄 Learning |
-| Input/Output           | 🔄 Learning  |
-| Operators              | 🔄 Learning  |
-| Conditions             | 🔄 Learning  |
-| Switch Case            | 🔄 Learning  |
+| Input/Output           | 🔄 Learning |
+| Operators              | 🔄 Learning |
+| Conditions             | 🔄 Learning |
+| Switch Case            | 🔄 Learning |
 | Loops                  | 🔄 Learning |
 | Loop Control           | 🔄 Learning |
-| Number Programs        | ⏳ Upcoming  |
-| Functions              | ⏳ Upcoming  |
+| Number Programs        | 🔄 Learning |
+| Functions              | 🔄 Learning |
 | Arrays                 | ⏳ Upcoming  |
 | Strings                | ⏳ Upcoming  |
 | Pointers               | ⏳ Upcoming  |
