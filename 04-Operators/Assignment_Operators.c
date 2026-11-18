@@ -1,6 +1,6 @@
-#include <stdio.h>                          // Standard input output library
+#include <stdio.h>                         
 
-int main() {                                // Program yahin se start hota hai (main function)
+int main() {                               
     int x = 10;                             // Simple assignment: x mein 10 store hua
     x += 5;                                 // x = x + 5, ab x = 15
     printf("After += : %d\n", x);           // 15 print hoga
@@ -12,5 +12,5 @@ int main() {                                // Program yahin se start hota hai (
     printf("After /= : %d\n", x);           // 6 print hoga
     x %= 4;                                 // x = x % 4, ab x = 2
     printf("After %%= : %d\n", x);          // 2 print hoga
-    return 0;                               // Program successfully khatam
-}                                           // main function end
+    return 0;                             
+}                                           

@@ -1,4 +1,4 @@
-#include <stdio.h>                      // Standard input output library
+#include <stdio.h>                      // header file 
 
 int main() {                            // Program yahin se start hota hai (main function)
     printf("Line 1\n");                 // Pehli line print hogi

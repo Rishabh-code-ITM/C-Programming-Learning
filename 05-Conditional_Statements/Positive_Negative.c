@@ -1,6 +1,6 @@
-#include <stdio.h>                              // Standard input output library
+#include <stdio.h>                              
 
-int main() {                                    // Program yahin se start hota hai (main function)
+int main() {                                   
     int num;                                    // Number store karne ke liye
     printf("Enter a number: ");                 // Number maango
     scanf("%d", &num);                          // Number input lo
@@ -10,6 +10,6 @@ int main() {                                    // Program yahin se start hota h
         printf("Negative\n");                   // Negative print karo
     } else {                                    // Dono nahi, matlab number 0 hai
         printf("Zero\n");                       // Zero print karo
-    }                                           // if-else block end
-    return 0;                                   // Program successfully khatam
-}                                               // main function end
+    }                                           
+    return 0;                                   
+}                                               

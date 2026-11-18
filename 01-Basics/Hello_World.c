@@ -1,3 +1,4 @@
+// yah mera basic stucture program hai c ka 
 #include <stdio.h>                  // Standard input output library
 
 int main() {                        // Program yahin se start hota hai (main function)

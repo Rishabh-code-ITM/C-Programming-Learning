@@ -1,6 +1,6 @@
-#include <stdio.h>                          // Standard input output library
+#include <stdio.h>                         
 
-int main() {                                // Program yahin se start hota hai (main function)
+int main() {                               
     int i = 10;                             // Integer variable
     float f = 5.5f;                         // Float variable
     char c = 'Z';                           // Character variable
@@ -9,5 +9,5 @@ int main() {                                // Program yahin se start hota hai (
     printf("Char: %c\n", c);                // %c character ke liye
     printf("Width: %5d|\n", i);             // %5d se number 5 jagah mein right align hota hai
     printf("Left: %-5d|\n", i);             // %-5d se number left align hota hai
-    return 0;                               // Program successfully khatam
-}                                           // main function end
+    return 0;                              
+}                                           

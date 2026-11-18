@@ -1,6 +1,6 @@
-#include <stdio.h>                                      // Standard input output library
+#include <stdio.h>                                   
 
-int main() {                                            // Program yahin se start hota hai (main function)
+int main() {                                         
     int age, hasLicense;                                // Age aur license (1 = hai, 0 = nahi)
     printf("Enter age and license (1/0): ");            // Dono values maango
     scanf("%d %d", &age, &hasLicense);                  // Dono input lo
@@ -12,6 +12,6 @@ int main() {                                            // Program yahin se star
         }                                               // inner if-else end
     } else {                                            // Age 18 se kam hai
         printf("You are too young to drive\n");         // Abhi gaadi nahi chala sakte
-    }                                                   // outer if-else end
-    return 0;                                           // Program successfully khatam
-}                                                       // main function end
+    }                                                  
+    return 0;                                          
+}                                                     

@@ -1,6 +1,6 @@
-#include <stdio.h>                                      // Standard input output library
+#include <stdio.h>                     //header file                 
 
-int main() {                                            // Program yahin se start hota hai (main function)
+int main() {                                  // main function/ starting point 
     int a, b, c;                                        // Teen numbers ke variables
     printf("Enter three numbers: ");                    // Teen numbers maango
     scanf("%d %d %d", &a, &b, &c);                      // Teeno numbers input lo
@@ -10,6 +10,6 @@ int main() {                                            // Program yahin se star
         printf("%d is largest\n", b);                   // To b sabse bada hai
     } else {                                            // Baaki case mein c sabse bada hoga
         printf("%d is largest\n", c);                   // c print karo
-    }                                                   // if-else block end
-    return 0;                                           // Program successfully khatam
-}                                                       // main function end
+    }                                                  
+    return 0;                                           
+}                                                      
