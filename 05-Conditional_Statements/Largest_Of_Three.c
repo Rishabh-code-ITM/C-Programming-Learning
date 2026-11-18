@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include <stdio.h>                     //header file                 
 
 int main() {                                  // main function/ starting point 
@@ -10,6 +11,20 @@ int main() {                                  // main function/ starting point
         printf("%d is largest\n", b);                   // To b sabse bada hai
     } else {                                            // Baaki case mein c sabse bada hoga
         printf("%d is largest\n", c);                   // c print karo
+=======
+#include <stdio.h>                                 
+
+int main() {                                   
+    int a, b, c;                                        
+    printf("Enter three numbers: ");                   
+    scanf("%d %d %d", &a, &b, &c);                     
+    if (a >= b && a >= c) {                            
+        printf("%d is largest\n", a);                   
+    } else if (b >= a && b >= c) {                    
+        printf("%d is largest\n", b);                  
+    } else {                                           
+        printf("%d is largest\n", c);                   
+>>>>>>> 7bcf487b7b81bc0d562947384e7a5b330936d35a
     }                                                  
     return 0;                                           
 }                                                      

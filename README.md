@@ -324,8 +324,8 @@ C-Programming
 | Operators              | 🔄 Learning  |
 | Conditions             | 🔄 Learning  |
 | Switch Case            | 🔄 Learning  |
-| Loops                  | ⏳ Upcoming  |
-| Loop Control           | ⏳ Upcoming  |
+| Loops                  | 🔄 Learning |
+| Loop Control           | 🔄 Learning |
 | Number Programs        | ⏳ Upcoming  |
 | Functions              | ⏳ Upcoming  |
 | Arrays                 | ⏳ Upcoming  |

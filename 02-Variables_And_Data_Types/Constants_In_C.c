@@ -2,7 +2,7 @@
 
 #define PI 3.14159                              // Macro constant, compile hone se pehle PI ki jagah 3.14159 replace ho jata hai
 
-int main() {                                    // Program yahin se start hota hai (main function)
+int main() {                                   
     const int DAYS = 7;                         // const keyword: is variable ki value baad mein change nahi kar sakte
     printf("PI = %.5f\n", PI);                  // Macro constant ka use
     printf("Days in week = %d\n", DAYS);        // const variable ka use
