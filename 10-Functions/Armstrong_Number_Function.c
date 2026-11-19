@@ -1,4 +1,4 @@
-#include <stdio.h>                                      // Standard input output library
+#include <stdio.h>                                     
 
 int isArmstrong(int n) {                                // 3-digit Armstrong check: ho to 1, warna 0
     int original = n, sum = 0;                          // Asli number save karo, sum 0 se start
@@ -6,18 +6,18 @@ int isArmstrong(int n) {                                // 3-digit Armstrong che
         int d = n % 10;                                 // Last digit nikalo
         sum += d * d * d;                               // Digit ka cube jodo
         n /= 10;                                        // Last digit hatao
-    }                                                   // while loop end
+    }                                                  
     return sum == original;                             // Barabar ho to Armstrong
-}                                                       // isArmstrong function end
+}                                                     
 
-int main() {                                            // Program yahin se start hota hai (main function)
-    int n;                                              // Number store karne ke liye
-    printf("Enter a 3-digit number: ");                 // Number maango
-    scanf("%d", &n);                                    // Number input lo
+int main() {                                         
+    int n;                                             
+    printf("Enter a 3-digit number: ");                
+    scanf("%d", &n);                                    
     if (isArmstrong(n)) {                               // Function ka result check karo
         printf("Armstrong number\n");                   // Armstrong hai
-    } else {                                            // Warna
+    } else {                                            // Warna  else automatcally run ho jata hai 
         printf("Not an Armstrong number\n");            // Armstrong nahi hai
-    }                                                   // if-else end
-    return 0;                                           // Program successfully khatam
-}                                                       // main function end
+    }                                                  
+    return 0;                                           
+}                                                   
